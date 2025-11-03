@@ -315,8 +315,6 @@ def insert_svg(
     Returns:
         操作结果消息，包含详细的错误信息（如果有）
     """
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    output_path = os.path.join(current_dir, "output.pptx")
     # 收集错误信息
     error_messages = []
     result_messages = []
